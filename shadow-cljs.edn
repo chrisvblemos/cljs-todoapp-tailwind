@@ -11,14 +11,9 @@
  {8280 "resources/public"
   8290 "target/browser-test"}
 
- :cache-blockers
- #{kushi.core kushi.stylesheet}
-
  :builds
  {:app
   {:target     :browser
-   :build-hooks [(kushi.core/kushi-debug)
-                 (kushi.stylesheet/create-css-file)]
    :output-dir "resources/public/js/compiled"
    :asset-path "/js/compiled"
    :modules
