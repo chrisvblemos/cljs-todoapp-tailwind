@@ -1,0 +1,1 @@
+{"version":3,"sources":["todoapp/config.cljs"],"mappings":";AAEA,AAAKA,8BACMC","names":["todoapp.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns todoapp.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}
