@@ -1,6 +1,6 @@
 # ToDo App - Clojurescript + Tailwind CSS
 
-![](pg-screenshots.png)
+![](pg-screenshot.png)
 
 Basic to-do app template written on Clojure Script, Re-frame and using Tailwind CSS for styling.
 
